@@ -1,4 +1,4 @@
-pub fn remove_element(nums: &mut Vec<i32>, value: i32) -> i32 {
+fn remove_element(nums: &mut Vec<i32>, value: i32) -> i32 {
     let mut k: usize = nums.len();
     let mut i: usize = 0;
     while i < k {
